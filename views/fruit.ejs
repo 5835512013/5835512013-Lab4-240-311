@@ -1,0 +1,9 @@
+<html>
+<h1> <%= foo %> </h1>
+<ol>
+  <% fruits.forEach(function(fruit){ %>
+   <li><%= fruit.title %></li>
+   <img src="<%= fruit.image %>" width="200px">
+   <% }); %>
+</ol>
+</html>
